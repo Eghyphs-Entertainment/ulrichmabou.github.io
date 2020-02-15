@@ -66,6 +66,7 @@
       data-x_margin="18"
       data-y_margin="18"
     ></script>
+   
   </head>
   <body class="container">
   
@@ -89,7 +90,7 @@
             </div>
             <div class="p-2">
               <h2 class="mb-3">Ulrich Mabou</h2>
-              <h5 class="mb-0 p-2">Hobbyist Developer | Technologist | Entrepreneur</h5>
+              <h5 class="mb-0 p-2">Hobbyist Developer | Entrepreneur</h5>
               <div class="mt-4 mb-3 d-flex flex-wrap justify-content-center">
                 <div style="height:45px; width:45px;">
                   <a href="https://github.com/ulrichmabou">
@@ -121,7 +122,7 @@
          <!-- -----------------------------
         Card
         ----------------------------- -->
-        <div class="col-md-7 pl-5 mt-5">
+        <div class="col-md-7 pt-5 pl-5 mt-5">
           <h3 class="accordion  active">
             <span onclick="expandAccordion(this)" style="cursor: pointer;">
               <i class="fas fa-user-astronaut"></i>
@@ -153,7 +154,7 @@
             </p>
           </div>
 
-          <h3 class="accordion ">
+          <h3 class="accordion mt-5">
             <span onclick="expandAccordion(this)" style="cursor: pointer;">
               <i class="fas fa-rss-square"></i>
               Blog Posts
@@ -236,7 +237,41 @@
             </p>
           </div>
 
-          <h3 class="accordion ">
+          <h3 class="accordion pt-3">
+            <span onclick="expandAccordion(this)" style="cursor: pointer;">
+              <i class="fas fa-cogs"></i>
+              Skills/Toolbox
+            </span>
+          </h3>
+          <div class="panel overflow-hidden" id="skill-panel">
+            <script>
+              let skillPanel = document.querySelector("#skill-panel")
+                .previousElementSibling;
+              skillPanel.addEventListener("click", function () {
+                let skillBars = document.querySelectorAll("#skill-percent");
+                skillBars.forEach(elem => {
+                  elem.style.width = elem.classList[0];
+                });
+              });
+            </script>
+          
+            <code>Skill 1, Skill 2</code>
+            <div class="w-100 skillbar mt-1 mb-3">
+              <div id="skill-percent" class="90%" style="width: 0;"></div>
+            </div>
+          
+            <code>Skill 3</code>
+            <div class="w-100 skillbar mt-1 mb-3">
+              <div id="skill-percent" class="80%" style="width: 0;"></div>
+            </div>
+          
+            <code>Skill 4</code>
+            <div class="w-100 skillbar mt-1 mb-3">
+              <div id="skill-percent" class="50%" style="width: 0;"></div>
+            </div>
+          </div>
+
+          <h3 class="accordion pt-3">
             <span onclick="expandAccordion(this)" style="cursor: pointer;">
               <i class="fas fa-laptop"></i>
               Career Highlights
@@ -290,7 +325,7 @@
           
           </div>
 
-          <h3 class="accordion ">
+          <h3 class="accordion pt-3">
             <span onclick="expandAccordion(this)" style="cursor: pointer;">
               <i class="fas fa-graduation-cap"></i>
               Before Dropping Out
@@ -313,7 +348,7 @@
             </dl>
 
             <dl>
-              <dt>National Diploma in Electtrical, Electronics & Computer Engineering</dt>
+              <dt>National Diploma in Electrical, Electronics & Computer Engineering</dt>
               <dd class="mb-0 ml-3">
                 2012 - 2014 &middot; <a href="https://www.cput.ac.za/homepage" target="_blank">
                   CPUT
@@ -334,15 +369,13 @@
             </dl>
           </div>
 
-          
-
-          <h3 class="accordion ">
+          <h3 class="accordion pt-3">
             <span onclick="expandAccordion(this)" style="cursor: pointer;">
               <i class="fas fa-project-diagram"></i>
               Latest Projects/Products
             </span>
           </h3>
-          <div class="panel overflow-hidden">
+          <div class="panel overflow-hidden mb-5">
             <dl>
               <dt>
                 <a href="https://api.whatsapp.com/send?phone=254700712712&text=Hi" target="_blank" style="font-variant: small-caps;">
@@ -364,61 +397,29 @@
                   Development Of A Smart Real-time Counter For An OEE Application (2017)
                 </a>
               </dt>
-              <dd class="mb-0 ml-3 markdownify">
+              <dd class="mb-5 ml-3 markdownify">
                 The first real-world IIoT (Industrial Internet of Things) project that I got involved with. As a local market leader in the field of energy management, Powerstar has realized the opportunity to help some of their existing clients save more on their energy consumption and optimize their production processes.
                 <br/> <br/>
                 The innovative solution was a set of products and services that I contributed to developing during my last six months at the company. The first product that we developed was a smart real-time counter which acts as the edge device and sends data to the cloud for analytics. The aim of the project was to help the customers monitor and optimize their OEE (Overall Equipment Effectiveness) in real-time.
               </dd>
-          
           </div>
 
-          <h3 class="accordion ">
+          <h3 class="accordion mt-5">
             <span onclick="expandAccordion(this)" style="cursor: pointer;">
-              <i class="fas fa-cogs"></i>
-              Skills</span
-            >
-          </h3>
-          <div class="panel overflow-hidden" id="skill-panel">
-            <script>
-              let skillPanel = document.querySelector("#skill-panel")
-                .previousElementSibling;
-              skillPanel.addEventListener("click", function() {
-                let skillBars = document.querySelectorAll("#skill-percent");
-                skillBars.forEach(elem => {
-                  elem.style.width = elem.classList[0];
-                });
-              });
-            </script>
-
-            <code>Skill 1, Skill 2</code>
-            <div class="w-100 skillbar mt-1 mb-3">
-              <div id="skill-percent" class="90%" style="width: 0;"></div>
-            </div>
-
-            <code>Skill 3</code>
-            <div class="w-100 skillbar mt-1 mb-3">
-              <div id="skill-percent" class="80%" style="width: 0;"></div>
-            </div>
-
-            <code>Skill 4</code>
-            <div class="w-100 skillbar mt-1 mb-3">
-              <div id="skill-percent" class="50%" style="width: 0;"></div>
-            </div>
-          </div>
-
-          <h3 class="accordion ">
-            <span onclick="expandAccordion(this)" style="cursor: pointer;">
-              <i class="fas fa-gamepad"></i>
-              Hobbies</span
-            >
+              <i class="fas fa-at"></i>
+              Contacting Ulrich
+            </span>
           </h3>
           <div class="panel overflow-hidden">
             <ul class="pl-0">
-              <li class="list-unstyled mb-2">Cooking</li>
-
-              <li class="list-unstyled mb-2">Hiking</li>
-
-              <li class="list-unstyled mb-2">Baking</li>
+              <li class="list-unstyled mb-2">
+                You can connect with me or reach out via <a href="https://twitter.com/ulrich_mabou" target="_blank">Twitter</a> or 
+                <a href="https://www.linkedin.com/in/ulrichmabou" target="_blank">LinkedIn</a>.
+              </li>
+              <li class="list-unstyled mb-2">
+                You can also hit me up at <a href="mailto:ulrichmabou@gmail.com?subject=Hey%20Ulrich!&body=I%20just%20came%20across%20your%20page%20and%20I%20thought%20of%20reaching%20out..." target="_blank">
+                  ulrichmabou@gmail.com</a>.
+              </li>
             </ul>
           </div>
 
