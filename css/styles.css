@@ -8,7 +8,7 @@ body {
 code {
   font-family: "Roboto Mono", monospace !important;
   font-size: 0.9em !important;
-  color: #dae1e7;
+  color: #FD813F;
 }
 footer {
   font-size: 0.9em !important;
@@ -47,6 +47,9 @@ a:hover,
 .profile-area {
   background-color: var(--secondaryBg);
   color: var(--secondaryText);
+} 
+.profile-area #fields {
+  color: #FD813F;
 }
 .shadow {
   box-shadow: -4px -4px 5px 2px var(--shadow) !important;
@@ -60,6 +63,7 @@ a:hover,
 .zoomlink:hover {
   font-size: 1.9em;
   cursor: pointer;
+  color: #79D6B5;
 }
 .panel {
   max-height: 0;
@@ -95,5 +99,5 @@ a:hover,
   background-color: #27496d;
 } 
 .wa-message-us:hover{
-  background-color: #25D366;
+  background-color: #FD813F;
 }
