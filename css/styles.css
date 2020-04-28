@@ -101,3 +101,15 @@ a:hover,
 .wa-message-us:hover{
   background-color: #FD813F;
 }
+.fas{
+  color: #FD813F;
+}
+.fas:hover{
+  color: #79D6B5;
+}
+span {
+  color: #79D6B5;
+}
+span:hover{
+  color: #FD813F;
+}
