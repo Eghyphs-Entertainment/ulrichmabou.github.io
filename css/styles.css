@@ -8,7 +8,7 @@ body {
 code {
   font-family: "Roboto Mono", monospace !important;
   font-size: 0.9em !important;
-  color: #FD813F;
+  color: #27496d;
 }
 footer {
   font-size: 0.9em !important;
@@ -63,7 +63,7 @@ a:hover,
 .zoomlink:hover {
   font-size: 1.9em;
   cursor: pointer;
-  color: #79D6B5;
+  color: #27496d;;
 }
 .panel {
   max-height: 0;
@@ -95,20 +95,20 @@ a:hover,
 }
 
 /* Extra styling */
-.wa-message-us {
+/* .wa-message-us {
   background-color: #27496d;
-} 
+}  */
 .wa-message-us:hover{
-  background-color: #FD813F;
+  background-color: #27496d;;
 }
 .fas{
   color: #FD813F;
 }
 .fas:hover{
-  color: #79D6B5;
+  color: #27496d;;
 }
 span {
-  color: #79D6B5;
+  color: #27496d;;
 }
 span:hover{
   color: #FD813F;
