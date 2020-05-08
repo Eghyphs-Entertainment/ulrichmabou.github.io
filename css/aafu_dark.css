@@ -1,9 +1,10 @@
 :root {
-  --primaryBg: #DEF5FE;
+  /* --primaryBg: #DEF5FE; */
+  --primaryBg: #F2F4F8;
   --primaryText: #333333;
-  --primaryLinks: #FD813F;
-  --secondaryBg: #FEF0E4;
+  --primaryLinks: #18B4FF;
+  --secondaryBg: #F2F4F8;
   --secondaryText: #27496d;
   --secondaryLinks: #27496d;
-  --shadow: #FD813F;
+  --shadow: #27496d;
 }
