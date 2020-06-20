@@ -66,26 +66,10 @@
   </head>
   <body class="container">
       <div class="ml-auto mr-auto row row-eq-height rounded">
-
-        <!-- Github chart -->
-        <div class="row" style="align-items: center;">
-          <div class="column">
-            <img class="my-2 mx-4" src="https://ghchart.rshah.org/196128/ulrichmabou" alt="Github chart" />
-          </div>
-          <div class="column">
-            <div style="height:45px; width:45px;">
-              <a href="https://github.com/ulrichmabou" target="_blank" style="color: #27496d;" 
-              onclick="gtag('event', 'github-chart', {'event_category': 'outbound-links','event_label': 'github'});">
-                <i class="zoomlink my-2 mx-4 fab fa-github"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
     <!-- -----------------------------
     Card
     ----------------------------- -->
-        <div class="col-md-5 text-center mt-3">
+        <div class="col-md-5 text-center mt-4">
           <div class="profile-area rounded text-center position-relative shadow">
             <div class="d-flex justify-content-center">
               <div class="w-100 h-100">
@@ -133,7 +117,7 @@
          <!-- -----------------------------
         Card
         ----------------------------- -->
-        <div class="col-md-7 pt-2 pl-3 mt-3">
+        <div class="col-md-7 pl-3 mt-4">
         <!-- About section -->
           <h5 class="accordion active">
             <span onclick="expandAccordion(this); gtag('event', 'nav-about', {'event_category': 'nav','event_label': 'about'});" style="cursor: pointer;">
@@ -615,5 +599,21 @@
         </div>
       </div>
     </main>
+
+    <!-- Github chart -->
+    <div class="row my-2" style="align-items: center;">
+      <div class="column">
+        <img class="my-2 ml-4" src="https://ghchart.rshah.org/196128/ulrichmabou" alt="Github chart" />
+      </div>
+      <div class="column">
+        <div style="height:45px; width:45px;">
+          <a href="https://github.com/ulrichmabou" target="_blank" style="color: #27496d;" 
+          onclick="gtag('event', 'github-chart', {'event_category': 'outbound-links','event_label': 'github'});">
+            <i class="zoomlink my-2 ml-4 fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
