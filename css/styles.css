@@ -63,7 +63,7 @@ a:hover,
 .zoomlink:hover {
   font-size: 1.9em;
   cursor: pointer;
-  color: #15A2FF;
+  color: #6CB6AC;
 }
 .panel {
   max-height: 0;
@@ -97,17 +97,17 @@ a:hover,
 /* Extra styling */
 
 .wa-message-us:hover{
-  background-color: #065F54;
+  background-color: #6CB6AC;
 }
 .fas{
-  color: #0d7abf;
+  color: #6CB6AC;
 }
 .fas:hover{
-  color: #15A2FF;
+  color: #6CB6AC;
 }
 span {
   color: #27496d;
 }
 span:hover{
-  color: #15A2FF;
+  color: #6CB6AC;
 }
